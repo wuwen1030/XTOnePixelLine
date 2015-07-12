@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5BC6C621B520ACC005B9FAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5BC6C611B520ACC005B9FAE /* main.m */; };
+		B5BC6C651B520ACC005B9FAE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5BC6C641B520ACC005B9FAE /* AppDelegate.m */; };
+		B5BC6C681B520ACC005B9FAE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5BC6C671B520ACC005B9FAE /* ViewController.m */; };
+		B5BC6C6B1B520ACC005B9FAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5BC6C691B520ACC005B9FAE /* Main.storyboard */; };
+		B5BC6C6D1B520ACC005B9FAE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5BC6C6C1B520ACC005B9FAE /* Images.xcassets */; };
+		B5BC6C701B520ACC005B9FAE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5BC6C6E1B520ACC005B9FAE /* LaunchScreen.xib */; };
+		B5BC6C7C1B520ACC005B9FAE /* OnePixelLineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5BC6C7B1B520ACC005B9FAE /* OnePixelLineTests.m */; };
+		B5BC6C881B520B1C005B9FAE /* XTOnePixelLine.m in Sources */ = {isa = PBXBuildFile; fileRef = B5BC6C871B520B1C005B9FAE /* XTOnePixelLine.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5BC6C761B520ACC005B9FAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5BC6C541B520ACC005B9FAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5BC6C5B1B520ACC005B9FAE;
+			remoteInfo = OnePixelLine;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B5BC6C5C1B520ACC005B9FAE /* OnePixelLine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnePixelLine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5BC6C601B520ACC005B9FAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5BC6C611B520ACC005B9FAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B5BC6C631B520ACC005B9FAE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B5BC6C641B520ACC005B9FAE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B5BC6C661B520ACC005B9FAE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B5BC6C671B520ACC005B9FAE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B5BC6C6A1B520ACC005B9FAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5BC6C6C1B520ACC005B9FAE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B5BC6C6F1B520ACC005B9FAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B5BC6C751B520ACC005B9FAE /* OnePixelLineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnePixelLineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5BC6C7A1B520ACC005B9FAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5BC6C7B1B520ACC005B9FAE /* OnePixelLineTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OnePixelLineTests.m; sourceTree = "<group>"; };
+		B5BC6C861B520B1C005B9FAE /* XTOnePixelLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTOnePixelLine.h; sourceTree = "<group>"; };
+		B5BC6C871B520B1C005B9FAE /* XTOnePixelLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTOnePixelLine.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5BC6C591B520ACC005B9FAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5BC6C721B520ACC005B9FAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5BC6C531B520ACC005B9FAE = {
+			isa = PBXGroup;
+			children = (
+				B5BC6C5E1B520ACC005B9FAE /* OnePixelLine */,
+				B5BC6C781B520ACC005B9FAE /* OnePixelLineTests */,
+				B5BC6C5D1B520ACC005B9FAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5BC6C5D1B520ACC005B9FAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5BC6C5C1B520ACC005B9FAE /* OnePixelLine.app */,
+				B5BC6C751B520ACC005B9FAE /* OnePixelLineTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5BC6C5E1B520ACC005B9FAE /* OnePixelLine */ = {
+			isa = PBXGroup;
+			children = (
+				B5BC6C851B520B15005B9FAE /* XTOnePixelLine */,
+				B5BC6C631B520ACC005B9FAE /* AppDelegate.h */,
+				B5BC6C641B520ACC005B9FAE /* AppDelegate.m */,
+				B5BC6C661B520ACC005B9FAE /* ViewController.h */,
+				B5BC6C671B520ACC005B9FAE /* ViewController.m */,
+				B5BC6C691B520ACC005B9FAE /* Main.storyboard */,
+				B5BC6C6C1B520ACC005B9FAE /* Images.xcassets */,
+				B5BC6C6E1B520ACC005B9FAE /* LaunchScreen.xib */,
+				B5BC6C5F1B520ACC005B9FAE /* Supporting Files */,
+			);
+			path = OnePixelLine;
+			sourceTree = "<group>";
+		};
+		B5BC6C5F1B520ACC005B9FAE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5BC6C601B520ACC005B9FAE /* Info.plist */,
+				B5BC6C611B520ACC005B9FAE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B5BC6C781B520ACC005B9FAE /* OnePixelLineTests */ = {
+			isa = PBXGroup;
+			children = (
+				B5BC6C7B1B520ACC005B9FAE /* OnePixelLineTests.m */,
+				B5BC6C791B520ACC005B9FAE /* Supporting Files */,
+			);
+			path = OnePixelLineTests;
+			sourceTree = "<group>";
+		};
+		B5BC6C791B520ACC005B9FAE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5BC6C7A1B520ACC005B9FAE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B5BC6C851B520B15005B9FAE /* XTOnePixelLine */ = {
+			isa = PBXGroup;
+			children = (
+				B5BC6C861B520B1C005B9FAE /* XTOnePixelLine.h */,
+				B5BC6C871B520B1C005B9FAE /* XTOnePixelLine.m */,
+			);
+			path = XTOnePixelLine;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5BC6C5B1B520ACC005B9FAE /* OnePixelLine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5BC6C7F1B520ACC005B9FAE /* Build configuration list for PBXNativeTarget "OnePixelLine" */;
+			buildPhases = (
+				B5BC6C581B520ACC005B9FAE /* Sources */,
+				B5BC6C591B520ACC005B9FAE /* Frameworks */,
+				B5BC6C5A1B520ACC005B9FAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OnePixelLine;
+			productName = OnePixelLine;
+			productReference = B5BC6C5C1B520ACC005B9FAE /* OnePixelLine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B5BC6C741B520ACC005B9FAE /* OnePixelLineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5BC6C821B520ACC005B9FAE /* Build configuration list for PBXNativeTarget "OnePixelLineTests" */;
+			buildPhases = (
+				B5BC6C711B520ACC005B9FAE /* Sources */,
+				B5BC6C721B520ACC005B9FAE /* Frameworks */,
+				B5BC6C731B520ACC005B9FAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5BC6C771B520ACC005B9FAE /* PBXTargetDependency */,
+			);
+			name = OnePixelLineTests;
+			productName = OnePixelLineTests;
+			productReference = B5BC6C751B520ACC005B9FAE /* OnePixelLineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5BC6C541B520ACC005B9FAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "X-Team";
+				TargetAttributes = {
+					B5BC6C5B1B520ACC005B9FAE = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					B5BC6C741B520ACC005B9FAE = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = B5BC6C5B1B520ACC005B9FAE;
+					};
+				};
+			};
+			buildConfigurationList = B5BC6C571B520ACC005B9FAE /* Build configuration list for PBXProject "OnePixelLine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5BC6C531B520ACC005B9FAE;
+			productRefGroup = B5BC6C5D1B520ACC005B9FAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5BC6C5B1B520ACC005B9FAE /* OnePixelLine */,
+				B5BC6C741B520ACC005B9FAE /* OnePixelLineTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5BC6C5A1B520ACC005B9FAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5BC6C6B1B520ACC005B9FAE /* Main.storyboard in Resources */,
+				B5BC6C701B520ACC005B9FAE /* LaunchScreen.xib in Resources */,
+				B5BC6C6D1B520ACC005B9FAE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5BC6C731B520ACC005B9FAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5BC6C581B520ACC005B9FAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5BC6C681B520ACC005B9FAE /* ViewController.m in Sources */,
+				B5BC6C881B520B1C005B9FAE /* XTOnePixelLine.m in Sources */,
+				B5BC6C651B520ACC005B9FAE /* AppDelegate.m in Sources */,
+				B5BC6C621B520ACC005B9FAE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5BC6C711B520ACC005B9FAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5BC6C7C1B520ACC005B9FAE /* OnePixelLineTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5BC6C771B520ACC005B9FAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5BC6C5B1B520ACC005B9FAE /* OnePixelLine */;
+			targetProxy = B5BC6C761B520ACC005B9FAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B5BC6C691B520ACC005B9FAE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5BC6C6A1B520ACC005B9FAE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B5BC6C6E1B520ACC005B9FAE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5BC6C6F1B520ACC005B9FAE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5BC6C7D1B520ACC005B9FAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B5BC6C7E1B520ACC005B9FAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5BC6C801B520ACC005B9FAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OnePixelLine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B5BC6C811B520ACC005B9FAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OnePixelLine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B5BC6C831B520ACC005B9FAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OnePixelLineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OnePixelLine.app/OnePixelLine";
+			};
+			name = Debug;
+		};
+		B5BC6C841B520ACC005B9FAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OnePixelLineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OnePixelLine.app/OnePixelLine";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5BC6C571B520ACC005B9FAE /* Build configuration list for PBXProject "OnePixelLine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5BC6C7D1B520ACC005B9FAE /* Debug */,
+				B5BC6C7E1B520ACC005B9FAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5BC6C7F1B520ACC005B9FAE /* Build configuration list for PBXNativeTarget "OnePixelLine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5BC6C801B520ACC005B9FAE /* Debug */,
+				B5BC6C811B520ACC005B9FAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B5BC6C821B520ACC005B9FAE /* Build configuration list for PBXNativeTarget "OnePixelLineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5BC6C831B520ACC005B9FAE /* Debug */,
+				B5BC6C841B520ACC005B9FAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5BC6C541B520ACC005B9FAE /* Project object */;
+}
