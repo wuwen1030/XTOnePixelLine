@@ -1,6 +1,6 @@
 //
-//  GSOnePixelLine.m
-//  GymStore
+//  XTOnePixelLine.m
+//  XTOnePixelLine
 //
 //  Created by Ben on 15/7/11.
 //  Copyright (c) 2015年 X-Team. All rights reserved.
@@ -32,8 +32,10 @@
 
 - (void)_commonInit
 {
-    _lineColor = [UIColor lightGrayColor];
-    _linePosition = GSLinePositionTop;
+    self.backgroundColor = [UIColor clearColor];
+    _lineColor = [UIColor blackColor];
+    _linePosition = XTLinePositionTop;
+    self.userInteractionEnabled = NO;
 }
 
 - (void)drawRect:(CGRect)rect
@@ -42,34 +44,34 @@
     CGContextBeginPath(context);
     switch (self.linePosition)
     {
-        case GSLinePositionTop:
+        case XTLinePositionTop:
         {
             CGContextMoveToPoint(context, 0, SINGLE_LINE_ADJUST_OFFSET);
             CGContextAddLineToPoint(context, CGRectGetMaxX(rect),  SINGLE_LINE_ADJUST_OFFSET);
         }
             break;
-        case GSLinePositionLeft:
+        case XTLinePositionLeft:
         {
             CGContextMoveToPoint(context, SINGLE_LINE_ADJUST_OFFSET, 0);
             CGContextAddLineToPoint(context, SINGLE_LINE_ADJUST_OFFSET,  CGRectGetMaxY(rect));
-
+            
         }
             break;
-        case GSLinePositionRight:
+        case XTLinePositionRight:
         {
             CGContextMoveToPoint(context, CGRectGetMaxX(rect) -  SINGLE_LINE_ADJUST_OFFSET, 0);
             CGContextAddLineToPoint(context, CGRectGetMaxX(rect) -  SINGLE_LINE_ADJUST_OFFSET,  CGRectGetMaxY(rect));
         }
             
             break;
-        case GSLinePositionBottom:
+        case XTLinePositionBottom:
         {
             CGContextMoveToPoint(context, 0, CGRectGetMaxY(rect) - SINGLE_LINE_ADJUST_OFFSET);
             CGContextAddLineToPoint(context, CGRectGetMaxX(rect), CGRectGetMaxY(rect) - SINGLE_LINE_ADJUST_OFFSET);
-
+            
         }
             break;
-
+            
         default:
             break;
     }
