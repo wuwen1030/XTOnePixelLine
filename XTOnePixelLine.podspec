@@ -22,5 +22,7 @@ Pod::Spec.new do |s|
   s.author       = { "wuwen" => "wuwen.xb@alibaba-inc.com" }
   s.platform     = :ios
   s.source       = { :git => "https://github.com/wuwen1030/XTOnePixelLine.git", :tag => "1.0.1" }
+  s.preserve_paths = '*.framework'
+  s.vendored_frameworks = '*.framework'
   s.source_files  = "OnePixelLine/XTOnePixelLine/*.{h,m}"
 end
