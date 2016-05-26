@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "XTOnePixelLine"
-  s.version      = "1.0.2"
+  s.version      = "1.0.0"
   s.summary      = "A convinent way to draw one pixel line on all devices."
 
   s.description  = <<-DESC
@@ -21,9 +21,6 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT" }
   s.author       = { "wuwen" => "wuwen.xb@alibaba-inc.com" }
   s.platform     = :ios
-  s.source       = { :git => "https://github.com/wuwen1030/XTOnePixelLine.git", :tag => "1.0.2" }
-  s.preserve_paths = '*.framework'
-  s.vendored_frameworks = '*.framework'
-  s.vendored_libraries = '*.a'
+  s.source       = { :git => "https://github.com/wuwen1030/XTOnePixelLine.git", :tag => "1.0.0" }
   s.source_files  = "OnePixelLine/XTOnePixelLine/*.{h,m}"
 end
